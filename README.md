@@ -13,7 +13,7 @@ For a song, the script uses Spotify's API to gather information about the track.
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
 
-Upon installation, run `brew install ffmpeg`. For Windows users, consult the tutorial [here](https://phoenixnap.com/kb/ffmpeg-windows).
+  Upon installation, run `brew install ffmpeg`. For Windows users, consult the tutorial [here](https://phoenixnap.com/kb/ffmpeg-windows).
 3. Make a [Spotify for Developers](https://developer.spotify.com/) account, create an app, and fetch the *client_id* and *client_secret* associated with your app. Next, make a project on the [Google Cloud Platform](https://console.cloud.google.com/) and create an *API key*. These credentials will be used to access the Spotify and YouTube APIs, respectively.
 4. In the project's directory, rename the file *secret_template.py* into *secret.py* and paste in your credentials.
 5. Navigate to the terminal in your project's directory and run `pip install -r requirements.txt` to download the libraries needed for the script to function.
