@@ -6,7 +6,7 @@ This script can be used to download songs or playlists from Spotify. Simply past
 For a song, the script uses Spotify's API to gather information about the track. Then, the script uses YouTube's API and various libraries to search for and download the track from YouTube. For a playlist, the script loops through every song and uses the same methodology as just described. 
 
 ## Setup
-1. Clone the repository by pasting `https://github.com/bjiruff/SpotifyDownloader.git` into your terminal or by downloading this repository's ZIP file.
+1. Clone the repository by pasting `git clone https://github.com/bjiruff/SpotifyDownloader.git` into your terminal or by downloading this repository's ZIP file.
 2. Install ffmpeg, which is used by the script to get MP3s. For MacOS users, if you haven't installed Homebrew, do so [here](https://brew.sh/). Upon installation, run `brew install ffmpeg`. For Windows users, consult the tutorial [here](https://phoenixnap.com/kb/ffmpeg-windows).
 3. Make a [Spotify for Developers](https://developer.spotify.com/) account, create an app, and fetch the *client_id* and *client_secret* associated with your app. Next, make a project on the [Google Cloud Platform](https://console.cloud.google.com/) and create an *API key*. These credentials will be used to access the Spotify and YouTube APIs, respectively.
 4. In the project's directory, rename the file *secret_template.py* into *secret.py* and paste in your credentials.
